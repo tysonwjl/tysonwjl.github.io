@@ -4,10 +4,74 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css\style.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="node_modules/fullpage.js/dist/fullpage.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/55f1ecbe02.js" crossorigin="anonymous"></script> 
     <title>tysonwjl</title>
 </head>
 <body>
-    Init Test 2
+    <div class="page">
+        
+        <nav class="nav-bar">
+            <div class="container">
+                <div class="brand">
+                   <a href="#slide1"><h1 class="brand_text"> &lt;Tysonwjl/&gt;</h1></a>
+                </div>
+                <!-- <div class="gap"></div> -->
+                <ul class="top_nav">
+                    <!-- <li> <a href="#slide1">HOME</a></li>
+                    <li> <a href="#slide2">SKILLS</a></li>
+                    <li> <a href="#slide3">WORK</a></li>
+                    <li> <a href="#slide4">CONTACT</a></li>
+                    <li> <a href="#slide5">FAQ</a></li> -->
+                </ul>
+                <div class="socials">
+                    <i class="fa-brands fa-twitter"><a href=""></a></i>
+                    <i class="fa-brands fa-instagram"><a href=""></a></i>
+                    <i class="fa-brands fa-github"><a href=""></a></i>
+                </div>
+            </div>
+        </nav>
+        <div id="fullpage">
+            <div data-anchor="slide1" class="section s1">
+                <div class="home">
+                    <h1 class="">Welcome to my portfolio</h1>
+                    <p>Hi, I'm Tyson Light (@tysonwjl) and I specialize in software development,<br>
+                        currently studying a batchelors degree in Computer Science @University Of Tasmania <br><br>
+                        I primarilly focus on : 
+                    </p>
+                    <ul class="spec">
+                        <li>Web</li>
+                        <li>Mobile</li>
+                        <li>Databases</li>
+                        <li>Data scrapping and statistics</li>
+                    </ul>
+                </div>
+            </div>
+            <div data-anchor="slide2" class="section skills">
+                <h1 class="off-head">So what can I do?</h1>
+            </div>
+            <div data-anchor="slide3" class="section work">
+                <h1 class="off-head">Some examples of work</h1>
+            </div>
+            <div data-anchor="slide4" class="section contact"> 
+                <h1 class="off-head">Interested? Contact me via</h1>
+            </div>
+        </div>
+        
+    </div>
+        <script type="text/javascript" src="node_modules/fullpage.js/dist/fullpage.js"></script>
+        <script>
+            new fullpage('#fullpage', {
+                //options here
+                autoScrolling:true,
+                scrollHorizontally: true,
+                licenseKey: 'gplv3-license'
+            });
+            </script>
+
 </body>
 </html>

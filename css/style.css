@@ -1,3 +1,100 @@
+h1,h2,h3,p{
+  font-family: 'Montserrat';
+}
+
+.off-head{
+  margin-left: 30px;
+}
+
+.container{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  box-sizing: border-box;
+}
+
+.nav-bar{
+  height: 50px;
+  background-color: rgba(0, 0, 0,0.78);
+  display: flex;
+  position: fixed;
+  z-index: 2 !important; 
+  width: 100%;
+}
+
+.brand{
+  display: flex;
+  width: auto;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.brand_text{
+  color: white;
+  margin: auto 0 auto 3.5vw;
+}
+
+.gap{
+  width: 60%;
+  height: 100%;
+}
+
+.socials{
+  height: 100%;
+  width: 30%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.socials i{
+  color: white;
+}
+
+.top_nav {
+  display: flex;
+  width: 100%;
+  list-style: none;
+  padding: 0;
+  justify-content: space-around;
+  height: auto;
+  z-index: 2 !important; 
+}
+.top_nav li  {
+  margin: auto;
+}
+.top_nav li a {
+  text-decoration: none;
+  color: white;
+  font-family: 'Montserrat';
+}
+
+.s1{
+  background-color: rgb(239, 231, 231);  
+}
+
+.home{
+  margin-left: 3.5vw;
+}
+
+.spec{
+  font-family: 'Montserrat';
+  margin-top: 0;
+  display: flex;
+}
+.spec li{
+  margin: 0 30px 0 0;
+}
 
 
-/*# sourceMappingURL=style.css.map */
+
+
+
+
+.skills{
+  background-color: lightblue;
+}
+
+.work{
+  background-color: yellow;
+}

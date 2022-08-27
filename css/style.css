@@ -25,6 +25,21 @@ h1,h2,h3,p{
   margin: 30px 30px 20px 30px;
 }
 
+.card2{
+    background: white;
+    border-radius: 10px;
+    box-sizing: border-box;
+    margin: 20px;
+    text-align: center;
+    box-shadow: white 2px 2px 1px;
+}
+.card2 h1{
+  padding-top: 20px;
+  color: rgba(0, 0, 0,0.78);
+  font-size: larger;
+}
+
+
 .sub{
 line-height: 2em;
 padding: 0;
@@ -129,16 +144,18 @@ margin-bottom: 20px;
 
 /* Home page */
 .s1{
-  background-color: rgb(239, 231, 231);  
+  background-color: rgb(239, 231, 231);
 }
 .home{
   margin-left: 3.5vw;
 }
 .home p{
   margin-bottom: 0;
+  color: black;
 }
 .home_intro{
   margin-top: 70px;
+  color: black;
 }
 
 .spec{
@@ -156,16 +173,33 @@ margin-bottom: 20px;
 /* Skills Page */
 
 .skills{
-  background-color: lightblue;
+  background-color: rgba(0, 0, 0,0.78); 
 }
-.skills h1{
+
+.tech{
+  font-size: 3.5em;
+  text-align: center;
+}
+
+.skills{
   color: white;
+}
+
+.skills h1{
+  font-family:'Montserrat';
+
 }
 
 .col-3 img{
   max-width: 60px;
   margin: 10px;
 }
+
+
+
+
+
+
 
 .work{
   background-color: yellow;

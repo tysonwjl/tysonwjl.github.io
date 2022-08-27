@@ -68,15 +68,26 @@ text-align: left;
   }
 }
 
+
+@media only screen and (max-width: 335px){
+  .contact h1{
+    font-size: 0.8em;
+  }
+}
+
+
 @media only screen and (max-width: 518px){
   .sub{
-    align-items: normal;
+    align-items: normal !important;
   }
 }
 
 @media only screen and (max-width: 555px){
   .contact h1{
     font-size: 1.5em;
+  }
+  .sub{
+    align-items: normal;
   }
 }
 
@@ -96,7 +107,7 @@ text-align: left;
 @media only screen and (max-width: 1374px){
   .spec{
     width: 70%;
-    padding-top: 50px;
+    /* padding-top: 50px; */
     margin: 0 auto 0 auto;
   }
 
@@ -194,13 +205,14 @@ text-align: left;
   color: black;
 }
 .home_intro{
-  margin-top: 70px;
+  margin-top: 100px;
   color: black;
 }
 
 .spec{
   font-family: 'Montserrat';
   margin-top: 0;
+  margin-bottom: 40px;
   display: flex;
   /* justify-content: space-around; */
   flex-wrap: wrap;
@@ -218,14 +230,13 @@ text-align: left;
 
 .tech{
   font-size: 3em;
-  margin-bottom: 1em;
   text-align: center;
   color: rgba(0, 0, 0,0.78);
 }
 
 .skills h1{
   font-family:'Montserrat';
-
+  margin-top: 3em;
 }
 
 .col-3 img{
@@ -253,5 +264,8 @@ text-align: left;
   background-color: rgba(0, 0, 0,0.78);
 }
 .contact h1{
+  max-width: 80%;
   color: white;
+  margin: 0 auto;
+  text-align: center;
 }

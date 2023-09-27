@@ -18,10 +18,25 @@
     // Sticky Navbar
     $(window).scroll(function () {
         if ($(this).scrollTop() > 0) {
-            $('.navbar').addClass('nav-sticky');
+            $('.navbar').addClass('nav-fade');
         } else {
-            $('.navbar').removeClass('nav-sticky');
+            $('.navbar').removeClass('nav-fade');
         }
+    });
+
+    let lastScrollTop = 0;
+    let navbar = $(".navbar");
+
+    $(window).scroll(function () {
+        let scrollTop = $(this).scrollTop();
+        if (scrollTop > lastScrollTop) {
+            // Scrolling down
+            $('.navbar').addClass('nav-fade');
+        } else {
+            // Scrolling up
+            $('.navbar').removeClass('nav-fade');
+        }
+        lastScrollTop = scrollTop;
     });
     
     
@@ -129,4 +144,24 @@
     });
     
 })(jQuery);
+
+  $(document).ready(function () {
+        $("a").on("click", function (event) {
+            if (this.hash !== "") {
+                event.preventDefault();
+
+                var hash = this.hash;
+                $("html, body").animate(
+                    {
+                        scrollTop: $(hash).offset().top,
+                    },
+                    800, // Animation duration in milliseconds
+                    function () {
+                        // Add hash (#) to URL when done scrolling (optional)
+                        window.location.hash = hash;
+                    }
+                );
+            }
+        });
+    });
 

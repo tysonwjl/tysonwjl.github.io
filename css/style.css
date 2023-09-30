@@ -1970,6 +1970,10 @@ a:focus {
  border-radius: 50%;   
 }
 
+#about-main{
+    background-color: rgba(0, 0, 0, .04);
+}
+
 .container-fluid{
     width: 100%;
     max-width: 100%;

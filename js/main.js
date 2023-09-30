@@ -146,7 +146,7 @@
 })(jQuery);
 
   $(document).ready(function () {
-        $("a").on("click", function (event) {
+        $("a.smooth").on("click", function (event) {
             if (this.hash !== "") {
                 event.preventDefault();
 

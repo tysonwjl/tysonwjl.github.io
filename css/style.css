@@ -369,7 +369,7 @@ a:focus {
     margin-bottom: 45px;
     padding: 150px 0 90px 0;
     text-align: center;
-    background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(../img/page-header.jpg);
+    background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(../img/chc.avif);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -2013,4 +2013,42 @@ a:focus {
 
 #menu-pic1{
     margin-top: 35px;
+}
+
+#cheflist{
+    justify-content: center;
+}
+
+.team-img img{
+    
+    
+}
+
+.team-top{
+    color: #fbaf32 !important;
+}
+
+#orderOnline{
+    width: 100%;
+    font-size: 30px;
+    margin-bottom: 30px;
+    
+}
+
+#like{
+    color: white;
+}
+
+.cnt{
+    justify-content: center;
+    margin: 50px 0;
+    
+}
+
+.cnt a {
+    font-size: 25px;
+}
+
+.custom-select option{
+    color: black !important;
 }
